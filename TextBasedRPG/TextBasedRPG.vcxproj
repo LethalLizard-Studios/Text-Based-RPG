@@ -106,7 +106,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -130,9 +130,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dwarf.h" />
+    <ClInclude Include="consolePixelArt.h" />
+    <ClInclude Include="bandit.h" />
     <ClInclude Include="health.h" />
-    <ClInclude Include="races.h" />
+    <ClInclude Include="factions.h" />
+    <ClInclude Include="liquidator.h" />
+    <ClInclude Include="rebel.h" />
+    <ClInclude Include="redLoyalist.h" />
+    <ClInclude Include="whiteCoat.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
